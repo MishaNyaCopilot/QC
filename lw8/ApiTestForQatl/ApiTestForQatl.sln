@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTestForQatl", "ApiTestForQatl\ApiTestForQatl.csproj", "{D9F43BE3-9041-4222-BC35-C1C57707E93C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6A68B743-78D5-4105-8CFB-8AF9FFC68856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9F43BE3-9041-4222-BC35-C1C57707E93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F43BE3-9041-4222-BC35-C1C57707E93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F43BE3-9041-4222-BC35-C1C57707E93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F43BE3-9041-4222-BC35-C1C57707E93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A68B743-78D5-4105-8CFB-8AF9FFC68856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A68B743-78D5-4105-8CFB-8AF9FFC68856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A68B743-78D5-4105-8CFB-8AF9FFC68856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A68B743-78D5-4105-8CFB-8AF9FFC68856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

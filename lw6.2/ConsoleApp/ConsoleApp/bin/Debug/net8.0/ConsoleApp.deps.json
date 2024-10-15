@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "OpenCover": "4.7.1221"
+        },
+        "runtime": {
+          "ConsoleApp.dll": {}
+        }
+      },
+      "OpenCover/4.7.1221": {}
+    }
+  },
+  "libraries": {
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenCover/4.7.1221": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XZsMfTpbGnqLWCQjOeLlbDUU0lazJHbyEX52d7oRSuQX7Ve+23nfk4TF/F61hS382IEHB8WvUwkPB2IIA9WqEQ==",
+      "path": "opencover/4.7.1221",
+      "hashPath": "opencover.4.7.1221.nupkg.sha512"
+    }
+  }
+}

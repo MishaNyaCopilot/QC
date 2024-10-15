@@ -1,0 +1,74 @@
+{
+  "valid": {
+    "category_id": "1",
+    "title": "valid title",
+    "alias": "valid title",
+    "content": "valid content",
+    "price": "52",
+    "old_price": "50",
+    "status": "1",
+    "keywords": "keyword",
+    "description": "description",
+    "hit": "0"
+  },
+  "invalidCategoryIdIsLess": {
+    "category_id": "0",
+    "title": "Invalid Product Category Id Less Title",
+    "alias": "Invalid Product Category Id Less Title",
+    "content": "Invalid Product Category Id Less Content",
+    "price": "52",
+    "old_price": "50",
+    "status": "1",
+    "keywords": "keyword",
+    "description": "description",
+    "hit": "0"
+  },
+  "invalidCategoryIdIsMore": {
+    "category_id": "16",
+    "title": "Invalid Product Category Id More Title",
+    "alias": "Invalid Product Category Id Less Title",
+    "content": "Invalid Product Category Id Content",
+    "price": "52",
+    "old_price": "50",
+    "status": "1",
+    "keywords": "keyword",
+    "description": "description",
+    "hit": "0"
+  },
+  "validCategoryIdIsOne": {
+    "category_id": "1",
+    "title": "valid Product Category Id One Title",
+    "alias": "valid Product Category Id One Title",
+    "content": "valid Product Category Id Content",
+    "price": "52",
+    "old_price": "50",
+    "status": "1",
+    "keywords": "keyword",
+    "description": "description",
+    "hit": "0"
+  },
+  "validCategoryIdIsFifteen": {
+    "category_id": "14",
+    "title": "valid Product Category Id Fifteen Title",
+    "alias": "valid Product Category Id Fifteen Title",
+    "content": "valid Product Category Id Content",
+    "price": "52",
+    "old_price": "50",
+    "status": "1",
+    "keywords": "keyword",
+    "description": "description",
+    "hit": "0"
+  },
+  "validProductForEditing": {
+    "category_id": "1",
+    "title": "valid Product For Editing Title",
+    "alias": "valid Product For Editing Title",
+    "content": "valid Product For Editing Content",
+    "price": "52",
+    "old_price": "50",
+    "status": "1",
+    "keywords": "keyword",
+    "description": "description",
+    "hit": "0"
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Authorization on the website": {
+    "Login": "login",
+    "Password": "password",
+    "ExpectedMessage": "Вы успешно авторизованы"
+  },
+  "Authorization on the website with invalid user": {
+    "Login": "invalidLogin",
+    "Password": "invalidPassword",
+    "ExpectedMessage": "Логин/пароль введены неверно"
+  }
+}

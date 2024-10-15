@@ -1,0 +1,39 @@
+{
+  "valid": {
+    "category_id": "5",
+    "title": "New Title",
+    "alias": "new-title",
+    "content": "New content",
+    "price": "228",
+    "old_price": "909",
+    "status": "0",
+    "keywords": "NewKeyword",
+    "description": "NewDescription",
+    "hit": "1"
+  },
+  "withNotExistingId": {
+    "id": "-1",
+    "category_id": "5",
+    "title": "New Title",
+    "alias": "new-title",
+    "content": "New content",
+    "price": "228",
+    "old_price": "909",
+    "status": "0",
+    "keywords": "NewKeyword",
+    "description": "NewDescription",
+    "hit": "1"
+  },
+  "withoutId": {
+    "category_id": "5",
+    "title": "New Title",
+    "alias": "new-title",
+    "content": "New content",
+    "price": "228",
+    "old_price": "909",
+    "status": "0",
+    "keywords": "NewKeyword",
+    "description": "NewDescription",
+    "hit": "1"
+  }
+}

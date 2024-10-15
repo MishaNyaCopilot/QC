@@ -1,0 +1,15 @@
+Range: 		 OneCell, ManyCells	
+FormattingRules: DoesNotContainData, ContainData, TextContains, TextDoesNotContains, TextBeginsWith, TextEndsWith, TextIsAccurate, Date, DateBefore, DateAfter, Greater, GreaterOrEqualTo, Less, LessOrEqualTo, EqualTo, NotEqual, Between, NotBetween
+InputType: 	 None, Date, Text, Number
+Bold: 		 Yes, No
+Italic: 	 Yes, No
+Underline: 	 Yes, No
+CrossedOut: 	 Yes, No
+TextColor: 	 None, Standart, Palette, Custom
+CellColor: 	 None, Standart, Palette, Custom
+
+
+if [FormattingRules] in {"DoesNotContainData", "ContainData"} then [InputType] = "None";
+if [FormattingRules] in {"TextContains", "TextDoesNotContains", "TextBeginsWith", "TextEndsWith", "TextIsAccurate"} then [InputType] = "Text";
+if [FormattingRules] in {"Date", "DateBefore", "DateAfter"} then [InputType] = "Date";
+if [FormattingRules] in {"Greater", "GreaterOrEqualTo", "Less", "LessOrEqualTo", "EqualTo", "NotEqual", "Between", "NotBetween"} then [InputType] = "Number";
